@@ -1,0 +1,12 @@
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <<<<paste here githubrepo link>>>>
+git branch -M main
+git push -u origin main
+
+
+##Pushing New Repo Update
+git add .
+git commit -m "change name"
+git push

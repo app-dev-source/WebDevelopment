@@ -1,0 +1,14 @@
+IMPORTANT -  
+            In html double quote and single quote are treated as same
+            HTML is not a CASE Sensitive
+
+
+Attributes :
+                it is used to add more information to tag.
+
+                EX:- <ul type="a">
+                        here type="a"  is attribute
+
+
+
+div and span is same but div is block whereas span is inline

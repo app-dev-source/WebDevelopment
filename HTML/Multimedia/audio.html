@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---Write controls without controls it wont visible-->
+    <audio src="" ></audio>
+    <audio src="" controls></audio>
+
+    <audio src="/HTML/Asset/freesound_community-broken-audio-file-distortion-104395.mp3" controls></audio>
+
+    <!-- Autoplay will autopay only once -->
+
+    <audio src="/HTML/Asset/freesound_community-broken-audio-file-distortion-104395.mp3" controls autoplay muted></audio>
+
+
+    <!-- Second method useful if browser doesnot support one music extension -->
+
+    <audio controls>
+        <source src="/HTML/Asset/freesound_community-broken-audio-file-distortion-104395.mp3">
+        <source src="Another extension of music or another music">
+    </audio>
+
+    <!-- Height and width not given to audio -->
+     
+</body>
+</html>

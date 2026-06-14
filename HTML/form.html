@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!--Action attribute is used to define where data shouldbe send-->
+    <form action="">
+
+
+
+        <!-- if only input tag is write then bydefault it take text type -->
+         UserName
+        <input type="text"/>
+        Password
+        <input type="password"/>
+        Number
+        <input type="number" min="9" max="15"/>
+        Time
+        <input type="time"/>
+        <br>
+
+
+
+        <!-- placeholder -->
+          UserName
+        <input type="text" placeholder="username"/>
+        Password
+        <input type="password" placeholder="password"/>
+        Number
+        <input type="number" min="9" max="15" placeholder="number"/>
+        Time
+        <input type="time"/>
+
+        <br>
+
+
+
+        <!-- label uses -->
+         <label>
+            UserName
+        <input type="text" placeholder="username"/>
+        </label>
+
+        <label>
+        Password
+        <input type="password" placeholder="password"/>
+        </label>
+
+
+
+
+        <!-- we dont use both text and input in label at one place -->
+        <br><BR>
+        HTML APPROACH
+        <br><br>
+        <div>
+            <label for="username">UserName</label>
+        <input type="text" id="username" placeholder="username"/>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password"/>
+        </div>
+
+        <div>
+            <h1>Button in Form</h1>
+            <button>Submit</button>
+            <button type="submit">Submit</button>
+            <button type="reset">reset the form</button>
+            <button type="button">hello</button>
+
+
+            <h2>Button Using input </h2>
+            <input type="button" value="value here"/>
+            <input type="submit"/>
+        </div>
+
+
+        <div>
+            
+        </div>
+            
+            
+        
+
+        
+
+
+    </form>
+
+</body>
+</html>
